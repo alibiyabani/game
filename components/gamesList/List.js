@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Pagination from '@material-ui/lab/Pagination'
+import { Pagination } from '@material-ui/lab';
 import { getAllGames } from '../../api/getGames'
 import Items from './Item'
 
